@@ -2,6 +2,7 @@ import React from "react";
 import SwimmingImage from "../../assets/swimming.png";
 import classImage from "../../assets/class.png";
 import PlaygroundImage from "../../assets/playground.png";
+import bgImage from "../../assets/bg.png";
 
 const Qzon = () => {
   return (
@@ -11,6 +12,7 @@ const Qzon = () => {
         <img src={SwimmingImage} alt="" />
         <img src={classImage} alt="" />
         <img src={PlaygroundImage} alt="" />
+        <img src={bgImage} alt="" />
       </div>
     </div>
   );
